@@ -1,0 +1,34 @@
+{
+    "Description": "linux-amd64-0.9.0 : Storidge's CIO plugin for Docker.",
+    "Documentation": "http://storidge.com/docs/",
+    "Entrypoint": [
+        "/docker-volume-cio",
+        "--docker"
+    ],
+    "Interface": {
+        "Socket": "cio.sock",
+        "Types": [
+            "docker.volumedriver/1.0"
+        ]
+    },
+    "Linux": {
+        "AllowAllDevices": true,
+        "Capabilities": [
+            "CAP_SYS_ADMIN"
+        ]
+    },
+    "Mounts": [
+        {
+            "Destination": "/dev",
+            "Type": "bind",
+            "Source": "/dev",
+            "Options": [
+                "rbind"
+            ]
+        }
+    ],
+    "Propagatedmount": "/cio",
+    "Network": {
+        "Type": "host"
+    }
+}
