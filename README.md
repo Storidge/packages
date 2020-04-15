@@ -20,7 +20,7 @@ mkdir -p /var/lib/storidge
 tar xf /var/tmp/packages-c7xl3/cio-3222-c7xl3-ee.amd64.txz -C /var/lib/storidge
 ```
 
-3. Install
+3. Install software in air gap mode
 
 ```
 cd /var/lib/storidge/cio-3222-c7xl3.amd64/
