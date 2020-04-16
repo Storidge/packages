@@ -1,4 +1,4 @@
-# Dependent packages forRHEL 7
+# Dependent packages for RHEL 7
 
 This repo collects dependent packages for installing the Storidge CIO software on air gapped systems.
 
@@ -25,4 +25,10 @@ tar xf /var/tmp/packages-c7xl3/cio-3224-c7xl3-ee.amd64.txz -C /var/lib/storidge
 ```
 cd /var/lib/storidge/cio-3224-c7xl3.amd64/
 ./install --air-gap /var/tmp/packages-c7xl3/r77l3/
+```
+
+## Initialize cluster
+
+```
+cioctl create
 ```
