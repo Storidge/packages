@@ -1,4 +1,4 @@
-# Dependent packages for Centos 7 and RHEL 7
+# Dependent packages forRHEL 7
 
 This repo collects dependent packages for installing the Storidge CIO software on air gapped systems.
 
