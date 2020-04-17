@@ -32,7 +32,7 @@ cd /var/lib/storidge/cio-3225-c7xl3.amd64/
 
 ## Initialize cluster
 
-With softare installed on your node, create and initialize the cluster for operation. Run:
+After installing softare on all nodes, create and initialize the cluster for operation. Run:
 
 ```
 cioctl create
