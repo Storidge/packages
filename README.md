@@ -24,7 +24,7 @@ tar xf /var/tmp/packages-c7xl3/cio-3225-c7xl3-ee.amd64.txz -C /var/lib/storidge
 
 ```
 cd /var/lib/storidge/cio-3225-c7xl3.amd64/
-./install --air-gap /var/tmp/packages-c7xl3/r77l3/
+./install --air-gap /var/tmp/packages-c7xl3/r77l3
 ```
 
 ## Initialize cluster
