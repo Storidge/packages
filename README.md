@@ -38,5 +38,5 @@ After installing softare on all nodes, create and initialize the cluster for ope
 cioctl create
 ```
 
-Follow the directions in the generated command strings, to add additional nodes and start cluster initizliation. 
+Follow the directions in the generated command strings, to add additional nodes and start cluster initialization. 
 
