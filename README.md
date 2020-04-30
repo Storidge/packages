@@ -20,13 +20,13 @@ git clone https://github.com/Storidge/packages-c7xl3.git
 ```
 rm -rf /var/lib/storidge
 mkdir -p /var/lib/storidge
-tar xf /var/tmp/packages-c7xl3/cio-3233-c7xl3-ee.amd64.txz -C /var/lib/storidge
+tar xf /var/tmp/packages-c7xl3/cio-3243-c7xl3-ce.amd64.txz -C /var/lib/storidge
 ```
 
 3. Install software in air gap mode
 
 ```
-cd /var/lib/storidge/cio-3233-c7xl3.amd64/
+cd /var/lib/storidge/cio-3243-c7xl3.amd64/
 ./install --air-gap /var/tmp/packages-c7xl3/r77l3
 ```
 
